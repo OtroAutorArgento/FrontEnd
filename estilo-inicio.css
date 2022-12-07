@@ -1,0 +1,255 @@
+* {
+     box-sizing: border-box
+ } 
+
+body {
+    /*  Color de fondo de toda la pagina */
+     background-color: grey;
+} 
+
+
+p.YoProgramo {
+     /*Colores del fondo y las letras*/
+     background-color: black;
+     color: white;
+     
+     /*Nivel de centrado del texto*/
+     padding-top: 1%;
+     padding-bottom: 1%;
+     padding-left: 1%;
+    /*-------------------*/
+     margin-bottom: -7px;
+}
+
+
+/* Barra de navegacion con opciones desplegables*/
+/*
+#vcode {
+      color: rgb(0, 255, 0);     
+}
+
+#navbarDarkDropdownMenuLink {
+     color: rgb(0, 162, 0);
+}
+
+#log {
+     color: rgb(255, 119, 0);
+}
+
+#face {
+     color: rgb(0, 234, 255);
+}
+
+#insta {
+     color: rgb(255, 0, 140);
+} */
+
+/*---------------------------*/
+
+nav.RedesSociales {
+    margin-top: -40px;
+    margin-left: 85%;
+    margin-bottom: 30px;
+}
+
+#Facebook {
+      height: 35px;
+      width: 35px;
+      background-color: rgb(0, 0, 0);
+}
+
+#Instagram {
+      height: 35px;
+      width: 35px;
+      background-color: rgb(0, 0, 0);
+}
+
+#Ban{
+      /*Color del fondo de la seccion*/
+      background-color: white;
+      
+      /*Que tan circulares son las puntas de la seccion*/
+      border-top-left-radius: 32px;
+      border-top-right-radius: 32px;
+
+      /*Margen de separacion de la isquierda y la derecha*/
+      margin: 25px 25px; 
+      margin-top: -15px ;
+      margin-bottom: -50px;
+   
+      /*Que tan centrado estan los objetos dentro de la seccion*/
+      padding: 20px;    
+
+      /*Configuraciones para el color del borde INCOMPLETA*/
+      border: 1px solid green;
+      background-image:url(Imagenes/Beyond.jfif);
+      background-repeat: no-repeat;
+      background-position: top;
+
+      height: 240px;
+      
+}
+
+div.DataBasica {
+     /*Color del fondo de la seccion*/
+      background-color: white;
+      
+     /*Que tan circulares son las puntas de la seccion*/
+      border-bottom-left-radius: 32px;
+      border-bottom-right-radius: 32px;
+
+     /*Margen de separacion de la isquierda y la derecha*/
+      margin: 25px 25px; 
+      margin-top: -15px ;
+    
+     /*Que tan centrado estan los objetos dentro de la seccion*/
+      padding: 20px;    
+
+     /*Configuraciones para el color del borde INCOMPLETA*/
+      border: 1px solid green;
+
+}
+
+
+#FotoBanner {
+      height: 200px;
+      width: 1095px;
+      margin-left: -20px;
+      margin-right: -20px; 
+
+      margin-top: -19px;
+      border-top-left-radius: 32px;
+      border-top-right-radius: 32px;
+
+}
+
+
+#FotoPerfil {
+      height: 6rem;
+      width: 6rem; /* para que sea redondo, el width y height debe ser la misma medida */
+      
+      height: 100px; /*Alto*/
+      width: 100px; /*Ancho*/
+
+      margin-top: -55px;
+      margin-bottom: 8px;
+      border-radius: 50px; 
+
+}
+
+p.DataPersonal {
+      padding-left: 20px;   
+}
+
+div.TituloEs {
+     margin-bottom: -25px;     
+      
+}
+
+#DataEditor {
+     height: 6rem;
+     width: 6rem; /* para que sea redondo, el width y height debe ser la misma medida */
+    
+     height: 40px; /*Alto*/
+     width: 30px; /*Ancho*/
+
+     margin-top: -80px;
+     margin-left: 180px;
+     border-radius: 50px; 
+}
+
+.SelectorPagina {
+     /*Color del fondo de la seccion*/
+     background-color: white;
+       
+     /*Que tan circulares son las puntas de la seccion*/
+      border-radius: 32px;
+ 
+     /*Margen de separacion de la isquierda y la derecha
+      margin: 25px 25px; */
+      margin-top: 10px;
+      margin-left: 25px;
+      margin-right: 80%;
+      margin-bottom: -15px;
+    
+     /*Que tan centrado estan los objetos dentro de la seccion*/
+      padding: 20px;    
+ 
+     /*Configuraciones para el color del borde INCOMPLETA*/
+      border: 1px solid green;
+      
+ }
+
+div.Experiencia {
+     /*Color del fondo de la seccion*/
+      background-color: white;
+
+     /*Que tan circulares son las puntas de la seccion*/
+      border-radius: 32px;
+
+     /*Margen de separacion de la isquierda y la derecha*/
+      margin: 10px 10px;
+    
+     /*Que tan centrado estan los objetos dentro de la seccion*/
+      padding: 20px;
+    
+     /*Configuraciones para el color del borde INCOMPLETA*/
+      border-color: green;
+      border-width: 1px;
+
+}
+
+div.Educacion {
+     /*Color del fondo de la seccion*/
+     background-color: white;
+
+     /*Que tan circulares son las puntas de la seccion*/
+     border-radius: 32px;
+
+     /*Margen de separacion de la isquierda y la derecha*/
+     margin: 10px 10px;
+   
+     /*Que tan centrado estan los objetos dentro de la seccion*/
+     padding: 20px;
+   
+     /*Configuraciones para el color del borde INCOMPLETA*/
+     border-color: green;
+     border-width: 1px;
+}
+
+div.Habilidades {
+     /*Color del fondo de la seccion*/
+     background-color: white;
+
+     /*Que tan circulares son las puntas de la seccion*/
+     border-radius: 32px;
+
+     /*Margen de separacion de la isquierda y la derecha*/
+     margin: 10px 10px;
+   
+     /*Que tan centrado estan los objetos dentro de la seccion*/
+     padding: 20px;
+   
+     /*Configuraciones para el color del borde INCOMPLETA*/
+     border-color: green;
+     border-width: 1px;
+}
+
+div.Proyectos {
+     /*Color del fondo de la seccion*/
+     background-color: white;
+
+     /*Que tan circulares son las puntas de la seccion*/
+     border-radius: 32px;
+
+     /*Margen de separacion de la isquierda y la derecha*/
+     margin: 10px 10px;
+    
+     /*Que tan centrado estan los objetos dentro de la seccion*/
+     padding: 20px;
+    
+     /*Configuraciones para el color del borde INCOMPLETA*/
+     border-color: green;
+     border-width: 1px;
+}
+
