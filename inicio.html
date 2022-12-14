@@ -9,83 +9,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo-inicio.css">
 
-    <title>Documento</title>
+    <title>Portafolios Web</title>
 </head>
 <body>
     
     <header>
 
         <div>
-            <p class="YoProgramo">Argentina Programa - #YoProgramo</p>
-        </div>
-        
-        <!-- CODIGO OPCIONAL: Barra de navegacion desplegable -->
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-
-            <a class="navbar-brand" href="#" id="vcode">V-Code</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-              
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-             <ul class="navbar-nav">
-                 <li class="nav-item dropdown">
-                    
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Opciones </a>
-                    
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="" id="log">Login</a></li>
-                        <li><a class="dropdown-item" href="https://www.facebook.com/" id="face">Mi Facebook</a></li>
-                        <li><a class="dropdown-item" href="https://www.instagram.com/" id="insta">Mi Instagram</a></li>
-                    </ul>
-
-                 </li>
-             </ul>
-            </div>
-
-        </div>
-        </nav> -->     
+            <p id="YoProgramo">Argentina Programa - #YoProgramo <a href="https://argentinaprograma.inti.gob.ar/"><img src="Imagenes/AP-Logo-M.jpg" alt="Logo de Argentina Programa" id="AP"></a> </p>
+        </div>   
         
         <div>
             <nav class="RedesSociales"> 
-                <a href="https://www.facebook.com/"><img id="Facebook" src="Imagenes/Facebook.png" alt="Imagen-Link para entrar a mi pagina de Facebook"></a>
-                <a href="https://www.instagram.com/jv_2042/"><img id="Instagram" src="Imagenes/instagram.png" alt="Imagen-Link para entrar a mi pagina de Instagram"></a>
-                <a class="btn btn-primary" href="login.html" role="button">Login</a>
+                <p> <a href="https://www.facebook.com/"><img id="Facebook" src="Imagenes/Facebook.png" alt="Imagen-Link para entrar a mi pagina de Facebook"> </a> <a href="https://www.instagram.com/jv_2042/"><img id="Instagram" src="Imagenes/instagram.png" alt="Imagen-Link para entrar a mi pagina de Instagram"></a> <a id="Login" class="btn btn-primary" href="login.html" role="button">Login</a> </p> 
             </nav>
         </div>
         
-        <div id="Ban">
-        </div>
+        <div id="Banner"> </div>
 
-        <!-- Perfil (Informacion Basica) + Fotos (Banner, Perfil) -->
+        <!-- Perfil (Informacion Basica) + Fotos (Perfil) -->
         <div class="DataBasica">
-
-           <!--<img id="FotoBanner"  src="Imagenes\FondoWeb.jpg" alt="Foto representativa de mi Banner">-->
-            
            <img id="FotoPerfil" src="Imagenes/FotoPerfil.jpg" alt="Una simple foto de perfil">
 
-            <p class="DataPersonal">Nombre</p>
-            <p class="DataPersonal">Edad</p>
-               
-            <div class="TituloEs">
-                <p class="DataPersonal" id="TituloEstudio">Titulo</p>
-                <div class="btn-edit" onclick="cambiar_parrafo()">
-                    <a href="#" class="btn-right">
-                        <img id="DataEditor" src="Imagenes/DataEditor.jpg" alt="Boton para editar informacion">
-                    </a>             
-                </div>
-            </div>
-
-            <p class="DataPersonal">Ciudad, Provincia (Pais) </p>
+           <p class="DataPersonal">José Gabriel Vera</p> 
+           <p class="DataPersonal">Desarrolladoro web full stack.jr</p>
+           <p class="DataPersonal">La Pampa (Argentina)<!--<a href="">Informacion de contacto</a> --> </p>
              
-            <input type="text" id="edit-acercade" oninput="cambio_y_salgo(this.value)" style="display:none;">
         </div>
         
     </header>
     
-    <!-- <div class="SelectorPagina">
+    <!-- 
+        <div class="SelectorPagina">
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Inicio</li>
@@ -94,19 +49,28 @@
         </nav>
     </div> -->
 
+     <section>
 
-    <!--  <section>
+        <div class="General">
+            <h2>Experiencia</h2>
 
-        <div class="Experiencia">
-            <p><h2>Experiencia</h2> 
-                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eos neque nemo, perspiciatis assumenda soluta ad, ipsam cumque blanditiis labore dolor,
-                officia quia provident maiores voluptas architecto ex laborum.
-                Quis, magnam?
+            <p id="ExisPe">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Eos neque nemo, perspiciatis assumenda soluta ad, ipsam cumque blanditiis labore dolor,
+             officia quia provident maiores voluptas architecto ex laborum.
+             Quis, magnam?
             </p>
+
+            <div class="btn-edit" onclick="cambiar_parrafo()">
+             <a href="#" class="btn-right">
+                 <img id="DataEditor" src="Imagenes/DataEditor.jpg" alt="Boton para editar informacion">
+             </a>             
+            </div>
+
+            <input type="text" id="edit-acercade" oninput="cambio_y_salgo(this.value)" style="display:none;">
         </div>
 
-        <div class="Educacion">
+    <!-- 
+        <div class="General">
             <p><h2>Educacion</h2> 
                 <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eos neque nemo, perspiciatis assumenda soluta ad, ipsam cumque blanditiis labore dolor,
@@ -115,7 +79,7 @@
             </p>
         </div>
 
-        <div class="Habilidades"> 
+        <div class="General"> 
             <p><h2>Hard and Soft Skills</h2> 
              <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Eos neque nemo, perspiciatis assumenda soluta ad, ipsam cumque blanditiis labore dolor,
@@ -124,7 +88,7 @@
             </p>
         </div>
 
-        <div class="Proyectos"> 
+        <div class="General"> 
             <p><h2>Proyectos</h2> 
              <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Eos neque nemo, perspiciatis assumenda soluta ad, ipsam cumque blanditiis labore dolor,
@@ -135,23 +99,20 @@
 
     </section>
     
-    <footer>
-
-    </footer>
-    -->
-   
+    <footer> </footer> -->
+    
     <script src="bstp/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
 
         function cambiar_parrafo() {
           document.getElementById("edit-acercade").style.display="block";
-          let texto = document.getElementById("TituloEstudio").innerText;
+          let texto = document.getElementById("ExisPe").innerText;
           console.log(texto);
         };
 
         function cambio_y_salgo(valor) {
-         document.getElementById("TituloEstudio").innerText=valor;
+         document.getElementById("ExisPe").innerText=valor;
         };
 
         function logMessage(message){

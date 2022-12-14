@@ -7,31 +7,20 @@ body {
     background-color: grey;
 } 
 
-.CorreoElectronico {
-     /*Color del fondo de la seccion*/
-     background-color: white;
-      
-     /*Que tan circulares son las puntas de la seccion*/
-      border-radius: 32px;
-
-     /*Margen de separacion de la isquierda y la derecha*/
-      margin: 25px 25px; 
-    
-     /*Que tan centrado estan los objetos dentro de la seccion*/
-      padding: 20px;    
-
-     /*Configuraciones para el color del borde INCOMPLETA*/
-      border: 1px solid green;
-      
-}
-
-.SelectorPagina {
+.General {
     /*Color del fondo de la seccion*/
-    background-color: white;
+     background-color: white;
       
     /*Que tan circulares son las puntas de la seccion*/
      border-radius: 32px;
 
+     
+    /*Configuraciones para el color del borde INCOMPLETA*/
+     border: 1px solid green;
+     
+}
+
+#SelectorPagina {
     /*Margen de separacion de la isquierda y la derecha
      margin: 25px 25px; */
      margin-top: 10px;
@@ -41,8 +30,13 @@ body {
    
     /*Que tan centrado estan los objetos dentro de la seccion*/ 
      padding: 15px;   
+}
 
-    /*Configuraciones para el color del borde INCOMPLETA*/
-     border: 1px solid green;
-     
+#CorreoElectronico {
+    /*Margen de separacion de la isquierda y la derecha*/
+     margin: 25px 25px; 
+    
+    /*Que tan centrado estan los objetos dentro de la seccion*/
+     padding: 20px;    
+
 }
